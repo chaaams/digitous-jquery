@@ -1,3 +1,6 @@
+// $("button").click(function (){
+//     $("input").prop( "disabled", false );
+// })
 $("button").click(function (){
-    $("input").prop( "disabled", false );
+    $("input").removeAttr("disabled");
 })
